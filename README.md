@@ -2,8 +2,8 @@ A quick test to how config vars get required in Create React Apps
 
 First create the app:
 ```
-npx create-react-app my-app
-cd my-app
+npx create-react-app create-create-react-app-heroku-config
+cd create-create-react-app-heroku-config
 ```
 
 Edit App.js to add variable:
@@ -21,17 +21,12 @@ git init .
 
 Create Heroku app:
 ```
-heroku create my-app
+heroku create create-create-react-app-heroku-config
 ```
 
 Add variable to Heroku app:
 ```
 heroku config:set REACT_APP_NOT_SECRET_CODE="this is the value of an environment variable"
-```
-
-Update `yarn.lock` (not sure why I needed this):
-```
-yarn install
 ```
 
 Push to Heroku:
