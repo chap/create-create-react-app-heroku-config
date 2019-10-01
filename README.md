@@ -1,5 +1,3 @@
-A quick test to how config vars get required in Create React Apps
-
 First create the app:
 ```
 npx create-react-app create-create-react-app-heroku-config
