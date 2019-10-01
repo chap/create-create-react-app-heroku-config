@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 A quick test to how config vars get required in Create React Apps
 
 First create the app:
@@ -45,3 +43,5 @@ View app and see variable:
 ```
 heroku open
 ```
+
+![screenshot](https://raw.githubusercontent.com/chap/create-create-react-app-heroku-config/master/Screen%20Shot%202019-10-01%20at%202.35.26%20PM.png)
